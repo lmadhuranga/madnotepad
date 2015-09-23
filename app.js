@@ -10,7 +10,7 @@ var routes = require('./routes/index');
 
 var app = express();
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://dbuser:dbuser@ds051523.mongolab.com:51523/task_ap', function(err) {
+mongoose.connect('mongodb://dbuser:dbuser@ds051523.mongolab.com:51523/task_app', function(err) {
     if(err) {
         console.log('connection error', err);
     } else {
